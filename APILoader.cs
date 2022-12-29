@@ -11,7 +11,7 @@ public class APILoader : MonoBehaviour
    private string apiKey = "myAPI" ; // Your OpenAI API key
     private string chatGptModel ="text-davinci-003"; // The ID of the ChatGPT model to use
    [SerializeField] private string userName = "jao"; // The user's name
-    private string botName = "Jarvis"; // The bot's name
+    private string botName = "JAO"; // The bot's name
     public string conversationId; // The ID of the conversation
 
     // UI elements for displaying the conversation
