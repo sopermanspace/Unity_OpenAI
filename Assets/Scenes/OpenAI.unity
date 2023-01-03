@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641275, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -488,7 +488,7 @@ Light:
   serializedVersion: 10
   m_Type: 1
   m_Shape: 0
-  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Color: {r: 1, g: 0.8063737, b: 0.2783019, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -952,8 +952,8 @@ Camera:
   m_GameObject: {fileID: 1754118593}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.09723212, g: 0.12916644, b: 0.1792453, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1428,7 +1428,7 @@ GameObject:
   - component: {fileID: 6198030520742366167}
   - component: {fileID: 1579054865370282699}
   m_Layer: 5
-  m_Name: Canvas (1)
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1528,7 +1528,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 1
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1754118595}
   m_PlaneDistance: 100
   m_PixelPerfect: 1
   m_ReceivesEvents: 1
@@ -1564,7 +1564,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.92564946}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -8.184963, y: 33.00004}
+  m_AnchoredPosition: {x: -8.184959, y: 33.00004}
   m_SizeDelta: {x: 16.370075, y: 5.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3291631192478820217
@@ -1739,7 +1739,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.15100001, y: 0.85531294}
   m_AnchorMax: {x: 0.8527777, y: 1}
-  m_AnchoredPosition: {x: -18.8929, y: 0}
+  m_AnchoredPosition: {x: -18.892899, y: 0}
   m_SizeDelta: {x: -37.7859, y: -35.0211}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &5067799409275784055

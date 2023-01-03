@@ -7,7 +7,7 @@ using Newtonsoft.Json;
 
 public class TestingApi : MonoBehaviour
 {  // Replace YOUR_API_KEY with your actual API key
-    private string apiKey = "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";
+    private string apiKey = "OpenAI API Key";
     private string prompt = "Hello, how are you today?";
     private string model = "text-davinci-002";
     private string conversationId = "";
@@ -31,7 +31,7 @@ public class TestingApi : MonoBehaviour
 
         yield return www.SendWebRequest();
 
-        if (www.isNetworkError || www.isHttpError)
+        if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
         {
             Debug.Log(www.error);
         }
