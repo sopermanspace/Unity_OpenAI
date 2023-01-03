@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/OpenAI.unity
+    guid: d5605ca7e9bd08f42862f80dd1f2aa6e
   m_configObjects: {}

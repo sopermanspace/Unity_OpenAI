@@ -563,7 +563,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 857736313}
-  - component: {fileID: 857736312}
+  - component: {fileID: 857736314}
   m_Layer: 0
   m_Name: GameManager2
   m_TagString: Untagged
@@ -571,18 +571,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &857736312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857736311}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55baaf9d93b35154eba7d2fe0a01b3a9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &857736313
 Transform:
   m_ObjectHideFlags: 0
@@ -598,6 +586,23 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &857736314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 857736311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c97fb20f95480af41b6c0a6a7545604e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  apiKey: 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
+  model: text-curie-001
+  prompt: Hello, how are you
+  maxTokens: 2048
+  temperature: 0.7
 --- !u!1 &1170948770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,7 +1170,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 857736312}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: TestingApi, Assembly-CSharp
         m_MethodName: OnClick
         m_Mode: 1
