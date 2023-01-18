@@ -1,18 +1,19 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Networking;
 using System.Text;
-
+using TMPro;
+using Newtonsoft.Json;
 public class GPT3 : MonoBehaviour
 {
-    public string apiKey = "OpenAI API Key";
+    public string apiKey ="";
     // public string model;
      private const string API_URL = "https://api.openai.com/v1/completions";
     public string prompt="Hello, how are you today?";
    public int maxTokens = 2048;
     public float temperature = 0.7f;
-
+    public TextMeshProUGUI ErrorText;
+    public TextMeshProUGUI ResultText;
     void Start()
     {
         StartCoroutine(SendGpt3Request());
@@ -34,12 +35,14 @@ public class GPT3 : MonoBehaviour
     if (request.result == UnityWebRequest.Result.ConnectionError || request.result == UnityWebRequest.Result.ProtocolError || request.result == UnityWebRequest.Result.DataProcessingError)
     {
         Debug.LogError(request.error);
+        ErrorText.text = request.error;
     }
     else
     {
         // Get the response text
         string responseText = request.downloadHandler.text;
         Debug.Log(responseText);
+        ResultText.text = responseText;
     }
 }
 

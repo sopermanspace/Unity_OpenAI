@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &165459188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 165459187}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 023b4a3cf82d5cf4eb7cf08a5b170a3d, type: 3}
   m_Name: 
@@ -599,10 +599,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   apiKey: 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
-  model: text-curie-001
   prompt: Hello, how are you
   maxTokens: 2048
   temperature: 0.7
+  ErrorText: {fileID: 5067799409275784055}
+  ResultText: {fileID: 5624158200430114416}
 --- !u!1 &1170948770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1800,7 +1801,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 10
   m_fontSizeMax: 18
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -1830,7 +1831,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 1
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 66.25725, y: 0, z: 0, w: 0}
+  m_margin: {x: 3.4761047, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1889,7 +1890,7 @@ MonoBehaviour:
   m_enableAutoSizing: 1
   m_fontSizeMin: 10
   m_fontSizeMax: 18
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -2218,7 +2219,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 102.00004, y: -56.71}
+  m_AnchoredPosition: {x: 102.00003, y: -56.71}
   m_SizeDelta: {x: 204.00008, y: 257.5532}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8632109132004017803
