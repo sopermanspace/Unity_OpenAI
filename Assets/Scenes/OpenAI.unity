@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &165459188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 023b4a3cf82d5cf4eb7cf08a5b170a3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: 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
   chatGptModel: text-davinci-003
   userName: UserName
   botName: Jarvis
@@ -598,8 +598,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97fb20f95480af41b6c0a6a7545604e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: MYKEy
+  timeBetweenRequests: 5
   prompt: Hello, how are you
+  model: text-davinci-002
   maxTokens: 2048
   temperature: 0.7
   ErrorText: {fileID: 5067799409275784055}
