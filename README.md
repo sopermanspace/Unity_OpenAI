@@ -13,10 +13,14 @@ https://beta.openai.com/account/api-keys
 
 
 (4)Display the generated text in your Unity project. This can be done using a UI text element.
+ ***************************************************************************************************
+
+                                                   NOTICE
+  You may get some Errors in **APILoader**So the Use of **GPT3** Script Is recommended, you Can Customize the script according to your needs and Contribute to this Github Profile.
+ 
+ ***************************************************************************************************
 
 
-
- You may get some Errors in **APILoader**So the Use of **GPT3** Script Is recommended, you Can Customize the script according to your needs and Contribute to this Github Profile.
 **Unity Interface ⤵️**
 
 
