@@ -13,3 +13,11 @@ https://beta.openai.com/account/api-keys
 
 
 (4)Display the generated text in your Unity project. This can be done using a UI text element.
+
+
+
+
+**Unity Interface ⤵️**
+
+
+![OpenAI](https://user-images.githubusercontent.com/84278213/213193378-1a1cc01c-5151-446f-9bf0-89045679ec78.PNG)
