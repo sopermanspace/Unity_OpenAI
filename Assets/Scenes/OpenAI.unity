@@ -219,7 +219,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &165459188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -232,7 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 023b4a3cf82d5cf4eb7cf08a5b170a3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: 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
+  apiKey: 
   chatGptModel: text-davinci-003
   userName: UserName
   botName: Jarvis
@@ -565,12 +565,12 @@ GameObject:
   - component: {fileID: 857736313}
   - component: {fileID: 857736314}
   m_Layer: 0
-  m_Name: GameManager2
+  m_Name: GPT_Manager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &857736313
 Transform:
   m_ObjectHideFlags: 0
@@ -598,9 +598,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c97fb20f95480af41b6c0a6a7545604e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  apiKey: MYKEy
-  timeBetweenRequests: 5
-  prompt: Hello, how are you
+  apiKey: 
+  timeBetweenRequests: 3
+  prompt: Hello, how are you? .
   model: text-davinci-002
   maxTokens: 2048
   temperature: 0.7
@@ -1436,7 +1436,7 @@ GameObject:
   - component: {fileID: 6198030520742366167}
   - component: {fileID: 1579054865370282699}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: GPT3_Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2040,7 +2040,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7558724959010184706}
   m_Layer: 5
-  m_Name: SpeechRecognizer_Panel
+  m_Name: UI_Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

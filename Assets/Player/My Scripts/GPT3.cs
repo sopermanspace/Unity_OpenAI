@@ -3,24 +3,27 @@ using UnityEngine;
 using UnityEngine.Networking;
 using System.Text;
 using TMPro;
+using UnityEngine.UI;
 using Newtonsoft.Json;
 public class GPT3 : MonoBehaviour
 {
-     [Header("OpenAI API")]
-    public string apiKey ="MyKEY";
+ [Header("OpenAI API")]
+ [Space(10)]
+    public string apiKey ="MYKEY_IN_INSPECTOR";
     public const string API_URL = "https://api.openai.com/v1/completions";
-     public int timeBetweenRequests = 5; // time in seconds
+    public int timeBetweenRequests = 5; // time in seconds
     private float lastRequestTime;
     public string prompt="Hello, how are you today?";
     public string  model = "text-davinci-002";
-   public int maxTokens = 2048;
+    public int maxTokens = 2048;
     public float temperature = 0.7f;
 
-    [Header("UI")]
+ [Header("UI")]
 
 [Space(10)]
     public TextMeshProUGUI ErrorText;
     public TextMeshProUGUI ResultText;
+    [SerializeField]  public InputField messageInput;
  
     void Start()
     {
@@ -31,7 +34,8 @@ public class GPT3 : MonoBehaviour
  
    IEnumerator SendGpt3Request()
 {
-    // Check if the API key is set
+    // **********************************DEBUG**********************************************************
+    // Check if there is Any Error in the Input Fields
      if (string.IsNullOrEmpty(apiKey)) {
     Debug.LogError("API key is not set. Please provide a valid API key.");
     ErrorText.text = "API key is not set. Please provide a valid API key.";
@@ -49,7 +53,8 @@ public class GPT3 : MonoBehaviour
         ErrorText.text = "Max Tokens is not set. Please provide a valid Max Tokens.";
         yield break;
     }
-    
+    // **********************************************************************************************************
+
         // check if the time between requests has passed
         if (Time.time - lastRequestTime < timeBetweenRequests)
         {
@@ -77,13 +82,18 @@ public class GPT3 : MonoBehaviour
     }
     else
     {
-        // Get the response text
-        string responseText = request.downloadHandler.text;
-        Debug.Log(responseText);
-        ResultText.text = responseText.ToString();
+        // Filtering  Response Text To Get the response  
+        string responseText = request.downloadHandler.text; // Fetch the response
+        int startIndex = responseText.IndexOf("text\":\"") + "text\":\"".Length;  
+        int endIndex = responseText.IndexOf("\",", startIndex);
+        int length = endIndex - startIndex;
+        string response = responseText.Substring(startIndex, length);
+        Debug.Log(response);
+        ResultText.text = response;
+    
     
     }
-      lastRequestTime = Time.time;
+      lastRequestTime = Time.time; // update the last request time
 }
 
 

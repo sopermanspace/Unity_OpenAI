@@ -9,8 +9,9 @@ using UnityEngine.Networking;
 public class APILoader : MonoBehaviour
 {
     [Header("OpenAI API")]
+    
    [SerializeField]public string apiKey; // Your OpenAI API key
-   [SerializeField]public string chatGptModel = "stext-davinci-003" ; // The ID of the ChatGPT model to use
+   [SerializeField]public string chatGptModel = "text-davinci-003"; // The ID of the ChatGPT model to use
    [SerializeField] public string userName ; // The user's name
    [SerializeField] public string botName ; // The bot's name
     public string conversationId; // The ID of the conversation
@@ -46,7 +47,7 @@ public class APILoader : MonoBehaviour
     }
 void Update()
 { 
-   
+    
     // Check if the user has entered a new message
     if (messageInput.isFocused && Input.GetKeyDown(KeyCode.Return))
     {
