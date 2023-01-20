@@ -17,6 +17,12 @@ https://beta.openai.com/account/api-keys
 
                                                    NOTICE
   You may get some Errors in **APILoader**So the Use of **GPT3** Script Is recommended, you Can Customize the script according to your needs and Contribute to this Github Profile.
+  
+  HTTP/1.1 401 == ERROR DUE TO WRONG API KEY
+  
+  HTTP/1.1 404 == WRONG ENDPOINT
+  
+                       ANYOTHER ISSUE PLEASE WRITE THE ISSUE IN THE ISSUES SECTION 
  
  ***************************************************************************************************
 
