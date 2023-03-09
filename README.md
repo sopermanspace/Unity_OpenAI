@@ -36,6 +36,16 @@ https://beta.openai.com/account/api-keys
 
 ![OpenAI](https://user-images.githubusercontent.com/84278213/213193378-1a1cc01c-5151-446f-9bf0-89045679ec78.PNG)
 
+# **Social Media**
+
+<a href="https://www.youtube.com/watch?v=2nc4Hkyl9Q0">
+  <img src="https://user-images.githubusercontent.com/84278213/224033777-bf41585d-aeda-4ea7-b812-096d804838a3.png" alt="YouTube" width="100" height="100">
+</a>
+  <a href="https://medium.com/@Clubwritter" style="margin-left: 50px;">
+  <img src="https://user-images.githubusercontent.com/84278213/224036175-f2e63bf2-b03a-4ee4-a082-e0b6f2e70567.png" alt="Medium" width="100" height="100">
+
+</a>
+
 **************************************************************
 # Hope you enjoy our work. Give a star if you do.
 
