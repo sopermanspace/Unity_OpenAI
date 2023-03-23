@@ -74,7 +74,7 @@ https://beta.openai.com/account/api-keys
 
 
 **************************************************************
-# [Hope you enjoy our work, Mark ⭐ this Repo.](https://github.com/sponsors/himanshuskyrockets/)
+# [Show your support by ⭐️ our Repo!](https://github.com/sponsors/himanshuskyrockets/)
 
 
 ***************************************************************
