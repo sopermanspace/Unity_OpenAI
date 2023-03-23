@@ -1,4 +1,4 @@
-# Unity_OpenAI-API Integration
+# Unity OpenAI-API Integration
 
 Integrate openai GPT-3 language model and ChatGPT API into a Unity project. It can be a useful way to add natural language processing capabilities to your application.
 
