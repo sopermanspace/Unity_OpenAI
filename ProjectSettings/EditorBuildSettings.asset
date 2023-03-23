@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/OpenAI.unity
+    path: Assets/Scenes/GPT3.unity
     guid: d5605ca7e9bd08f42862f80dd1f2aa6e
+  - enabled: 1
+    path: Assets/Scenes/ChatGPT.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
   m_configObjects: {}

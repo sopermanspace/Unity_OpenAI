@@ -23,7 +23,7 @@ public class GPT3 : MonoBehaviour
 [Space(10)]
     public TextMeshProUGUI ErrorText;
     public TextMeshProUGUI ResultText;
-    [SerializeField]  public InputField messageInput;
+    public InputField messageInput;
  
     void Start()
     {
