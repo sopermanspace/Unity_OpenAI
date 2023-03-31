@@ -27,7 +27,8 @@ https://beta.openai.com/account/api-keys
 
  ***************************************************************************************************
 
-                                                    NOTICE
+                                                   # NOTICE
+                                                   
   You may get some Errors in **APILoader**So the Use of **GPT3** Script Is recommended, you Can Customize the script according to your needs and Contribute to this Github Profile.
   
 <span style="color:red">
@@ -40,7 +41,7 @@ https://beta.openai.com/account/api-keys
     HTTP/1.1 404 == WRONG ENDPOINT
 </span>
 
-                        ANY-OTHER ISSUE PLEASE WRITE THE ISSUE IN THE ISSUES SECTION
+                      FOR ANY-OTHER ISSUEs, PLEASE WRITE THE ISSUE IN THE ISSUES SECTION
  ***************************************************************************************************
 
 
