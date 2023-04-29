@@ -1,6 +1,16 @@
 # Unity OpenAI-API Integration
 
-Integrate openai GPT-3 language model and ChatGPT API into a Unity project. It can be a useful way to add natural language processing capabilities to your application. 
+<div align="center" style="text-align: center">
+
+**Integrate openai GPT-3 language model and ChatGPT API into a Unity project. 
+</br>It can be a useful way to add natural language processing capabilities to your application.**
+
+
+[![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=Github&style=social)](https://github.com/himanshuskyrockets) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=subscribe&logo=youtube&style=social)](https://www.youtube.com/watch?v=2nc4Hkyl9Q0) [![Medium.com](https://img.shields.io/badge/medium-.com-blue)](https://medium.com/@Clubwritter) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=twitter&style=social)](https://twitter.com/superman_space) [![Support](https://img.shields.io/badge/-Support-green)](https://github.com/sponsors/himanshuskyrockets/)
+
+</div>
+
+
 
 ## Installation
 (1) Obtain an API key for the OpenAI API. You will need this to make requests to the API. 
@@ -25,7 +35,15 @@ https://beta.openai.com/account/api-keys
 - Create a AI Powered ChatBot
 - Create Powerful Tools with your choice of Customisation
 
- ***************************************************************************************************
+ 
+# **Unity Interface ⤵️**
+
+
+![image](https://user-images.githubusercontent.com/84278213/227189100-becca7f1-3406-480a-be8c-d81a9d70c0b4.png)
+
+![image](https://user-images.githubusercontent.com/84278213/227187013-2ad56aba-844f-4978-9088-4a387a758f65.png)
+
+***************************************************************************************************
 
                                                     ERRORS NOTICE
                                                    
@@ -47,33 +65,6 @@ https://beta.openai.com/account/api-keys
 
                                 FOR ANY-OTHER ISSUEs, PLEASE WRITE IT ON THE ISSUEs SECTION
  ***************************************************************************************************
-
-
-# **Unity Interface ⤵️**
-
-
-![image](https://user-images.githubusercontent.com/84278213/227189100-becca7f1-3406-480a-be8c-d81a9d70c0b4.png)
-
-![image](https://user-images.githubusercontent.com/84278213/227187013-2ad56aba-844f-4978-9088-4a387a758f65.png)
-
-
-# **Follow on Social Media**
-
-<a href="https://www.youtube.com/watch?v=2nc4Hkyl9Q0">
-  <img src="https://user-images.githubusercontent.com/84278213/224033777-bf41585d-aeda-4ea7-b812-096d804838a3.png" alt="YouTube" width="100" height="100">
-</a>
-  <a href="https://medium.com/@Clubwritter" style="margin-left: 50px;">
-  <img src="https://user-images.githubusercontent.com/84278213/224036175-f2e63bf2-b03a-4ee4-a082-e0b6f2e70567.png" alt="Medium" width="100" height="100">
-</a>
-<a href="https://github.com/himanshuskyrockets/">
-  <img src="https://user-images.githubusercontent.com/84278213/224496518-a8a8297e-60ba-4dc4-a4e4-ff3e0e6d4bfe.png" alt="GitHub" width="100" height="100">
-</a>
-
-
-
-
-
-
 
 
 
