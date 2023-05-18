@@ -1,12 +1,10 @@
 # Unity OpenAI-API Integration
+[![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=Github&style=social)](https://github.com/himanshuskyrockets) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=subscribe&logo=youtube&style=social)](https://www.youtube.com/watch?v=2nc4Hkyl9Q0) [![Medium.com](https://img.shields.io/badge/medium-.com-blue)](https://medium.com/@Clubwritter) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=twitter&style=social)](https://twitter.com/superman_space) [![Support](https://img.shields.io/badge/-Support-green)](https://github.com/sponsors/himanshuskyrockets/)
 
 <div align="center" style="text-align: center">
 
 **Integrate openai GPT-3 language model and ChatGPT API into a Unity project. 
 </br>It can be a useful way to add natural language processing capabilities to your application.**
-
-
-[![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=Github&style=social)](https://github.com/himanshuskyrockets) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=subscribe&logo=youtube&style=social)](https://www.youtube.com/watch?v=2nc4Hkyl9Q0) [![Medium.com](https://img.shields.io/badge/medium-.com-blue)](https://medium.com/@Clubwritter) [![Twitter Follow](https://img.shields.io/twitter/follow/youtube?label=Follow&logo=twitter&style=social)](https://twitter.com/superman_space) [![Support](https://img.shields.io/badge/-Support-green)](https://github.com/sponsors/himanshuskyrockets/)
 
 </div>
 
@@ -35,19 +33,11 @@ https://beta.openai.com/account/api-keys
 - Create a AI Powered ChatBot
 - Create Powerful Tools with your choice of Customisation
 
- 
-# **Unity Interface ⤵️**
-
-
-![image](https://user-images.githubusercontent.com/84278213/227189100-becca7f1-3406-480a-be8c-d81a9d70c0b4.png)
-
-![image](https://user-images.githubusercontent.com/84278213/227187013-2ad56aba-844f-4978-9088-4a387a758f65.png)
-
-***************************************************************************************************
+ ***************************************************************************************************
 
                                                     ERRORS NOTICE
                                                    
-  You may get some Errors in **APILoader**So the Use of **GPT3** Script Is recommended, you Can Customize the script according to your needs and Contribute to this Github Profile.
+  You may get some error in **APILoader** so use **GPT3.cs** Script. You can customize the script according to your needs and contribute to this Github profile.
   
 <span style="color:red">
 
@@ -65,6 +55,15 @@ https://beta.openai.com/account/api-keys
 
                                 FOR ANY-OTHER ISSUEs, PLEASE WRITE IT ON THE ISSUEs SECTION
  ***************************************************************************************************
+ 
+ 
+# **Unity Interface ⤵️**
+
+
+![image](https://user-images.githubusercontent.com/84278213/227189100-becca7f1-3406-480a-be8c-d81a9d70c0b4.png)
+
+![image](https://user-images.githubusercontent.com/84278213/227187013-2ad56aba-844f-4978-9088-4a387a758f65.png)
+
 
 
 
