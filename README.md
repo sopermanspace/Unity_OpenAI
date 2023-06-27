@@ -8,7 +8,14 @@
 
 </div>
 
+### notice
 
+```
+Note: 
+I am unable to complete this project further because my OpenAI API key credits have been expired😥
+
+Now onwards, you are the captain🧢 of this project. I want you to sail🚢 it towards success.
+```
 
 ## Installation
 (1) Obtain an API key for the OpenAI API. You will need this to make requests to the API. 
