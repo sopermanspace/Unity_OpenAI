@@ -46,23 +46,12 @@ https://beta.openai.com/account/api-keys
                                                    
   You may get some error in **APILoader** so use **GPT3.cs** Script. You can customize the script according to your needs and contribute to this Github profile.
   
-<span style="color:red">
+[![OpenAI Platform Error Codes Documentation](https://img.shields.io/badge/OpenAI%20Platform-Error%20Codes%20Documentation-blue?style=flat-square)](https://platform.openai.com/docs/guides/error-codes)
 
-  ###  HTTP/1.1 401 == ERROR DUE TO WRONG API KEY
-    
-</span>
-<span style="color:red">
 
-   ### HTTP/1.1 404 == WRONG ENDPOINT 
-</span>
-<span style="color:red">
-
-   ### HTTP/1.1 400 == BAD Request 
-</span>
 
                                 FOR ANY-OTHER ISSUEs, PLEASE WRITE IT ON THE ISSUEs SECTION
  ***************************************************************************************************
- 
  
 # **Unity Interface ⤵️**
 
